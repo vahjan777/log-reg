@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>webpackAndBabel</title>
+</head>
+<body>
+<button id="loginBtn">Login</button>
+<button id="registerBtn">Register</button>
+
+<div class="container" hidden=true id="containerLogin">
+    <p>Username or Email</p>
+    <label>
+        <input id="loginName" type="text" name="uname" class="input" required>
+    </label>
+    <p>Password</p>
+    <label>
+        <input id="loginPassword" type="text" name="btn" class="input" required>
+    </label>
+    <label>
+        <button class="button" id="loginButton">Log In</button>
+    </label>
+</div>
+
+<div class="container" hidden=true id="containerRegister">
+    <p>Name Surname</p>
+    <label>
+        <input id="registerName" type="text" name="name" class="input" required>
+    </label>
+    <p>Email</p>
+    <label>
+        <input id="registerEmail" type="email" name="email" class="input" required>
+    </label>
+    <p>Password</p>
+    <label>
+        <input id="registerPassword" type="text" name="psw" class="input" required>
+    </label>
+    <p>Confirm Password</p>
+    <label>
+        <input id="registerConfirmPassword" type="text" name="psw" class="input" required>
+    </label>
+    <label>
+        <button id="registerButton" class="button" >Register</button>
+    </label>
+</div>
+
+
+<div id="view"></div>
+</body>
+</html>
