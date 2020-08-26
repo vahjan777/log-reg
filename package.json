@@ -13,6 +13,7 @@
     "babel",
     "js"
   ],
+
   "author": "Vahe <vahe>",
   "license": "ISC",
   "devDependencies": {

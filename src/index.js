@@ -70,8 +70,6 @@ document.getElementById('loginButton')
 
     })
 
-
-
 const login = document.getElementById('containerLogin');
 const register = document.getElementById('containerRegister')
 
@@ -84,6 +82,3 @@ document.getElementById('registerBtn')
     .addEventListener('click', ()=>{
         register.hidden = register.hidden !== true;
     })
-
-
-
