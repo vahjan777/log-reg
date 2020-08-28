@@ -11,4 +11,6 @@ export default class RegisterObj {
             'pass': this.pass,
         }
     }
+
+
 }
