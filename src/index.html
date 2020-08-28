@@ -11,37 +11,39 @@
 <div class="container" hidden=true id="containerLogin">
     <p>Username or Email</p>
     <label>
-        <input id="loginName" type="text" name="uname" class="input" required>
+        <input id="loginName" tabindex="1" type="text" name="uname" class="input" required>
     </label>
     <p>Password</p>
     <label>
-        <input id="loginPassword" type="text" name="btn" class="input" required>
+        <input id="loginPassword" tabindex="2" type="text" name="btn" class="input" required>
     </label>
     <label>
-        <button class="button" id="loginButton">Log In</button>
+        <button class="button" id="loginButton" type="reset">Log In</button>
     </label>
 </div>
 
 <div class="container" hidden=true id="containerRegister">
+    <form>
     <p>Name Surname</p>
     <label>
-        <input id="registerName" type="text" name="name" class="input" required>
+        <input id="registerName" tabindex="1" type="text" name="name" class="input" required>
     </label>
     <p>Email</p>
     <label>
-        <input id="registerEmail" type="email" name="email" class="input" required>
+        <input id="registerEmail" tabindex="2"  type="email" name="email" class="input" required>
     </label>
     <p>Password</p>
     <label>
-        <input id="registerPassword" type="text" name="psw" class="input" required>
+        <input id="registerPassword" tabindex="3" type="text" name="psw" class="input" required>
     </label>
     <p>Confirm Password</p>
     <label>
-        <input id="registerConfirmPassword" type="text" name="psw" class="input" required>
+        <input id="registerConfirmPassword" tabindex="4" type="text" name="psw" class="input" required>
     </label>
     <label>
-        <button id="registerButton" class="button" >Register</button>
+        <button id="registerButton" class="button" type="submit" >Register</button>
     </label>
+    </form>
 </div>
 <div id="view"></div>
 </body>

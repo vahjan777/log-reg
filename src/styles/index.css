@@ -3,7 +3,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
+/*body {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
 
 .button {
     width: 70px;
@@ -14,11 +19,13 @@
 }
 
 .container {
+/*    margin-top: 100px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
     padding: 40px;
     border-radius: 10px;
     border: 2px solid #3a3939;
-    margin-left: 50px;
-    margin-top: 50px;
     width: 260px;
 }
 
@@ -28,3 +35,7 @@
     border: #3a3939 1px solid;
     border-radius: 3px;
 }
+
+/*.form {*/
+/*    flex-direction: column;*/
+/*}*/
